@@ -1,0 +1,50 @@
+/* font link  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metrophobic&display=swap");
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Metrophobic', sans-serif; */
+/* common  */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* header start  */
+header {
+  background-image: url("../images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #2f2f2f;
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 0;
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #eb3a4c;
+  transition: 0.4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 50%;
+}
