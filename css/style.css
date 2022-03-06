@@ -68,6 +68,7 @@ header .navbar-light .navbar-nav .nav-link:focus::after {
 }
 .header-content {
   min-height: 80vh;
+  padding: 40px 0;
 }
 .header-content h1 {
   color: #2f2f2f;
@@ -624,8 +625,12 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 200px 30px;
+  padding: 0 30px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   z-index: 0;
 }
 .contact-left::after {
@@ -700,7 +705,7 @@ main {
   border-bottom: 1px solid #707070;
   background-color: transparent;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 35px;
   outline: none;
 }
 .contact-right form textarea::placeholder {
