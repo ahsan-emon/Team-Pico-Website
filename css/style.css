@@ -274,6 +274,7 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 .our-projects .product-menu li {
   margin-right: 50px;
@@ -702,18 +703,22 @@ main {
 .contact-right-text {
   margin-bottom: 60px;
 }
-.contact-right form input::placeholder {
-  font-size: 15px;
-  color: #2f2f2f;
-  font-family: metropolis-lighter;
+.first-last-name {
+  display: flex;
+  justify-content: space-between;
 }
-.contact-right form input {
+.contact-right form input[type="text"] {
   border: none;
   border-bottom: 1px solid #707070;
   background-color: transparent;
   padding: 10px 5px;
   outline: none;
   width: 45%;
+}
+.contact-right form input::placeholder {
+  font-size: 15px;
+  color: #2f2f2f;
+  font-family: metropolis-lighter;
 }
 .contact-right form input[type="email"] {
   border: none;
@@ -744,9 +749,6 @@ main {
   font-family: metropolis-lighter;
 }
 .contact-right form input[type="submit"] {
-  border: 1px solid #eb3a4c;
   margin-top: 40px;
-  width: auto;
   padding: 11px 50px;
-  text-align: center;
 }
