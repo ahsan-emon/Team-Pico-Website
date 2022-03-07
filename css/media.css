@@ -230,6 +230,10 @@
     font-size: 15px;
     padding: 3px 0px;
   }
+  /* our project  */
+  .project-img-text h3 {
+    font-size: 28px;
+  }
   /* about us  */
   .about-us h2 {
     font-size: 26px;
@@ -265,6 +269,10 @@
   .project-btn {
     padding: 12px 35px;
     margin-left: 10px;
+  }
+  /* our project  */
+  .project-img-text h3 {
+    font-size: 25px;
   }
 }
 /* screen 425px  */
@@ -313,6 +321,9 @@
   .our-projects .product-menu li button {
     font-size: 14px;
   }
+  .project-img-text h3 {
+    font-size: 21px;
+  }
   /* about us  */
   .about-us h2 {
     font-size: 22px;
@@ -335,7 +346,7 @@
     padding: 30px;
   }
 }
-/* screen 375px  */
+/* screen 365px  */
 @media (max-width: 365px) {
   /* common  */
   .section-title h1 {
@@ -357,6 +368,10 @@
   }
   .header-content p {
     font-size: 15px;
+  }
+  /* our projects  */
+  .project-img-text h3 {
+    font-size: 18px;
   }
   /* companies  */
   .companies-talking-about h6 {
