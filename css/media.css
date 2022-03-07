@@ -42,5 +42,141 @@
   header .navbar-light .navbar-nav .nav-link {
     text-align: center;
     margin-bottom: 5px;
+    display: inline-block;
   }
+  header .navbar-nav .nav-item {
+    margin: auto;
+  }
+  .navbar-light .navbar-nav .nav-link::after {
+    bottom: 0px;
+  }
+  /* work start  */
+  .section-title h1 {
+    font-size: 45px;
+  }
+  .work-card i {
+    font-size: 50px;
+  }
+  .work-card .code-icon {
+    font-size: 16px;
+  }
+  .work-card .curve-icon {
+    font-size: 30px;
+  }
+  .work-card h3 {
+    font-size: 22px;
+  }
+  .work-card p {
+    font-size: 15px;
+  }
+  /* our projects  */
+  .our-projects .product-menu li {
+    margin-right: 45px;
+  }
+  .our-projects .product-menu li button {
+    font-size: 20px;
+    padding: 3px 2px;
+  }
+  /* about us */
+  .about-us h2 {
+    font-size: 30px;
+  }
+  .about-us-text p {
+    margin-bottom: 30px;
+  }
+  /* counter number  */
+  .count-box {
+    width: 150px;
+    height: 150px;
+  }
+  .count-box h2 {
+    font-size: 25px;
+  }
+  /* get offers  */
+  .get-offers h1 {
+    font-size: 24px;
+  }
+  .get-offers p {
+    font-size: 15px;
+  }
+  /* testimonials  */
+  .testimonials .owl-carousel {
+    margin-bottom: 50px;
+  }
+  .testimonial-card p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .testimonial-card h5 {
+    font-size: 18px;
+  }
+  /* choose plan  */
+  .plan-card h6 {
+    font-size: 18px;
+  }
+  .plan-card h6::after {
+    width: 60%;
+  }
+  .plan-card h2 {
+    font-size: 24px;
+  }
+  .plan-card .icon {
+    margin: 25px 0;
+  }
+  .plan-card i {
+    font-size: 50px;
+  }
+  .plan-card .code-icon {
+    font-size: 17px;
+  }
+  .plan-card p {
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .contact-right form textarea {
+    height: 120px;
+  }
+}
+/* screen 767px  */
+@media (max-width: 767px) {
+  /* common  */
+  .common-1 {
+    padding: 50px 0;
+  }
+  .common-2 {
+    padding: 50px 0;
+  }
+  /* work start  */
+  .section-title {
+    padding-bottom: 60px;
+  }
+  .section-title h1 {
+    font-size: 40px;
+  }
+  .explore-btn {
+    margin-top: 60px;
+  }
+  .our-projects .product-menu li {
+    margin-right: 40px;
+  }
+  .our-projects .product-menu li button {
+    font-size: 18px;
+    padding: 3px 1px;
+  }
+  /* companies start  */
+  .companies-talking-about h6 {
+    font-size: 28px;
+    margin-bottom: 70px;
+  }
+  /* choose plan  */
+  .choose-plan .section-title {
+    padding-bottom: 80px;
+  }
+  /* contact  */
+  .contact-left {
+    padding: 100px 30px;
+  }
+}
+/* screen 575px  */
+@media (max-width: 575px) {
 }
