@@ -187,6 +187,12 @@
   .companies-name {
     row-gap: 50px;
   }
+  .company-logo img {
+    width: 70%;
+  }
+  .company-logo .other-size {
+    width: 45%;
+  }
   /* choose plan  */
   .choose-plan .section-title {
     padding-bottom: 80px;
@@ -245,6 +251,12 @@
   .companies-talking-about h6 {
     font-size: 26px;
     margin-bottom: 60px;
+  }
+  .company-logo img {
+    width: 40%;
+  }
+  .company-logo .other-size {
+    width: 22%;
   }
   /* choose plan  */
   .choose-plan .section-title {
