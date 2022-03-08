@@ -258,6 +258,20 @@
   .company-logo .other-size {
     width: 22%;
   }
+  /* testimonials  */
+  .testimonials .owl-carousel .owl-nav .owl-prev {
+    top: 93%;
+    left: 47%;
+    transform: translateX(-50%);
+  }
+  .testimonials .owl-carousel .owl-nav .owl-next {
+    top: 100%;
+    left: 53%;
+    transform: translateX(-50%);
+  }
+  .testimonials .owl-carousel {
+    padding-bottom: 40px;
+  }
   /* choose plan  */
   .choose-plan .section-title {
     padding-bottom: 60px;
