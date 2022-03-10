@@ -114,6 +114,7 @@ header .navbar-light .navbar-nav .nav-link:focus::after {
 .common-btn:hover {
   background-color: #eb3a4c;
   color: #fff;
+  transform: scale(1) translateY(-4px);
 }
 .project-btn {
   color: #fff;
@@ -464,6 +465,9 @@ main {
   font-size: 15px;
   font-family: metropolis-lighter;
 }
+.get-offers .subscribe-btn:hover {
+  transform: scale(1) translateY(0px) translateZ(0px);
+}
 /* testimonials start  */
 .testimonial-card {
   background-color: #fafafa;
@@ -554,6 +558,9 @@ main {
 .plan-card:hover .quote-btn {
   background-color: #eb3a4c;
   color: #fff;
+}
+.plan-card .quote-btn:hover {
+  background-color: #f5495b;
 }
 .plan-card:hover {
   transform: scale(1.05);
