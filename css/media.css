@@ -148,6 +148,12 @@
   .contact-right form input[type="email"] {
     margin-top: 0px;
   }
+  /* back to top progress bar */
+  .progress-wrap {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+  }
 }
 /* screen 767px  */
 @media (max-width: 767px) {
@@ -201,6 +207,12 @@
   /* contact  */
   .contact-left {
     padding: 100px 30px;
+  }
+  /* back to top progress bar */
+  .progress-wrap {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
   }
 }
 /* screen 575px  */
@@ -406,7 +418,7 @@
   }
   /* offers  */
   .get-offers form input[type="email"] {
-    padding: 10px 5px;
+    padding: 10px;
     width: 100%;
   }
   .subscribe-btn {
