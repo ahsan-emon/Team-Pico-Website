@@ -132,6 +132,7 @@
   .plan-card p {
     line-height: 35px;
     font-size: 15px;
+    -webkit-line-clamp: 5;
   }
   .contact-right form textarea {
     height: 120px;
@@ -369,7 +370,6 @@
   /* choose plan  */
   .plan-card:hover {
     transform: scale(1.02);
-    padding: 30px;
   }
 }
 /* screen 365px  */

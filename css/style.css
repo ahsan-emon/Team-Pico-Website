@@ -557,7 +557,6 @@ main {
 }
 .plan-card:hover {
   transform: scale(1.05);
-  padding: 35px;
   z-index: 99;
 }
 .plan-card h6 {
