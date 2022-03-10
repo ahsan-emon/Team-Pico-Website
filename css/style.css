@@ -647,6 +647,20 @@ main {
   text-decoration: none;
   color: #eb3a4c;
   text-transform: capitalize;
+  position: relative;
+}
+.post-text a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #eb3a4c;
+  transition: 0.3s all ease-in-out;
+}
+.post-text a:hover::after {
+  width: 100%;
 }
 .recent-post .owl-carousel .owl-stage-outer {
   overflow: visible;
