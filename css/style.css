@@ -466,7 +466,7 @@ main {
   font-family: metropolis-lighter;
 }
 .get-offers .subscribe-btn:hover {
-  transform: scale(1) translateY(0px) translateZ(0px);
+  transform: scale(1) translateY(0px);
 }
 /* testimonials start  */
 .testimonial-card {
