@@ -266,7 +266,7 @@
     margin-bottom: 60px;
   }
   .company-logo img {
-    width: 40%;
+    width: 60%;
   }
   .company-logo .other-size {
     width: 22%;
@@ -415,6 +415,9 @@
   .companies-talking-about h6 {
     font-size: 20px;
     margin-bottom: 40px;
+  }
+  .company-logo img {
+    width: 80%;
   }
   /* offers  */
   .get-offers form input[type="email"] {
